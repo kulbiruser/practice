@@ -12,3 +12,6 @@ jobs:
       #   run: echo "Step 2 of the first workflow in github action"
       - name: validate html file
         run: test -f index.html && echo "index.html file exists" || echo "index.html file does not exist"
+
+      - name: Intentionally fail the workflow
+        run: exit 1
