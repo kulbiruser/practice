@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Notification
-        run: echo "Notification: The third workflow has completed"
+        run: echo "Notification The third workflow has completed"
