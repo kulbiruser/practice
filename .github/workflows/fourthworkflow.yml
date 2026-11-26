@@ -1,9 +1,9 @@
 name: Fourth Workflow Job Test
-on: push
-  # workflow_run:
-  #   workflows: ["Third Workflow"]
-  #   types:
-  #     - completed
+on:
+  workflow_run:
+    workflows: ["Third Workflow"]
+    types:
+      - completed
       # - failed
 jobs:
   first-job:
