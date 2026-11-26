@@ -1,0 +1,12 @@
+name: Fourth Workflow Job Test
+on: 
+  workflow_run
+    workflows: ["Third Workflow"]
+    types:
+      - failed
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notification
+        run: echo "Notification: The third workflow has failed"
