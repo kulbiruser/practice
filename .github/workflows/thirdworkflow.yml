@@ -16,5 +16,5 @@ jobs:
       # - name: Intentionally fail the workflow
       #   run: exit 1
 
-      - name: Intentionally pass the workflow
-        run: exit 0
+      # - name: Intentionally pass the workflow
+      #   run: exit 0
