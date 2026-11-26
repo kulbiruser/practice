@@ -3,10 +3,10 @@ on:
   workflow_run
     workflows: ["Third Workflow"]
     types:
-      - failed
+      - completed
 jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
       - name: Notification
-        run: echo "Notification: The third workflow has failed"
+        run: echo "Notification: The third workflow has completed"
