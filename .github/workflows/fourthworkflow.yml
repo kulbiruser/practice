@@ -1,6 +1,6 @@
 name: Fourth Workflow Job Test
 on: 
-  workflow_run
+  workflow_run:
     workflows: ["Third Workflow"]
     types:
       - completed

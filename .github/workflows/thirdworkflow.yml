@@ -7,4 +7,4 @@ jobs:
       - name: First Step
         run: echo "Step 1 of the first workflow in github action"
       - name: Second Step
-        run: echo "Step 2 of the first workflow in github action"
+        run: echo "Step 2 of the first workflow in github action"'
