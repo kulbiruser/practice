@@ -13,8 +13,8 @@ jobs:
       - name: validate html file
         run: test -f index.html && echo "index.html file exists" || echo "index.html file does not exist"
 
-      - name: Intentionally fail the workflow
-        run: exit 1
+      # - name: Intentionally fail the workflow
+      #   run: exit 1
 
-      # - name: Intentionally pass the workflow
-      #   run: exit 0
+      - name: Intentionally pass the workflow
+        run: exit 0
