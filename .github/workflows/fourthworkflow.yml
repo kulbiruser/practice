@@ -3,7 +3,7 @@ on:
   workflow_run:
     workflows: ["Third Workflow"]
     types:
-      - failed
+      - completed
 jobs:
   first-job:
     runs-on: ubuntu-latest
